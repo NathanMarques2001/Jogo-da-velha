@@ -1,6 +1,6 @@
 # Versão para console
 
--Ao começar o jogo aparece um mini-guia caso a pessoa nunca tenha jogado o jogo da velha. E, em seguida já pede para o jogador número 1 escolher uma das formas, "X" ou "Y".
+- Ao começar o jogo aparece um mini-guia caso a pessoa nunca tenha jogado o jogo da velha. E, em seguida já pede para o jogador número 1 escolher uma das formas, "X" ou "Y".
 
 - Após isso, a outra forma é designada ao segundo jogador.
 
