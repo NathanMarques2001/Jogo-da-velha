@@ -15,6 +15,9 @@ public class Menu_Pos_Jogo {
         opcao = sc.nextInt();
         sc.nextLine();
 
+        // faz quase a mesma coisa que o Main. A única diferença é que não pede aos
+        // jogadores que escolham suas formas.
+        // Além de zerar o contadorJogadas e o ganhou.
         if (opcao == 1) {
             Teste_Vencedor.ganhou = 0;
             Marcar_Posição.contadorJogadas = 0;
@@ -37,6 +40,7 @@ public class Menu_Pos_Jogo {
         }
         // fim da opcao 1
 
+        // esse é o método main. A diferença é que zera o contadorJogadas e o ganhou.
         if (opcao == 2) {
             Teste_Vencedor.ganhou = 0;
             Marcar_Posição.contadorJogadas = 0;
@@ -68,6 +72,8 @@ public class Menu_Pos_Jogo {
         }
         // fim da opcao 3
 
+        // se o usuário escolher uma opção inválida, menor que 1 ou maior que 3
+        // o programa o informa que a opção é inválida e chama o método Menu novamente.
         if (opcao < 1 || opcao > 3) {
             System.out.println("OPÇÃO INVÁLIDA!");
             Menu(mat, formaJogador2, formaJogador2);

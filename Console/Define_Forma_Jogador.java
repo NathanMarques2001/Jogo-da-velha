@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Define_Forma_Jogador {
 
     public static String formaJogador1, formaJogador2;
-    public static final String formaX = "X", formaO = "O";
+    public static final String formaX = "x", formaO = "o";
     static Scanner sc = new Scanner(System.in);
 
     public static String Escolhe_Forma_Jogador_1() {
